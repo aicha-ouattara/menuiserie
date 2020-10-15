@@ -118,7 +118,7 @@ header{
 
 /* ########## MAIN ########### */
 
-main{
+.entreprise{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -145,7 +145,7 @@ hr{
 	align-items: center;
 }
 
-article{
+.histoire article{
 	align-self: center;
 	width: 80%;
 }
@@ -161,18 +161,18 @@ article>p{
 	font-family: 'Poiret One', cursive;
 }
 
-article > img{
+.histoire article > img{
 	margin: 15px;
 }
 
-article > .droite{
+.histoire article > .droite{
 	height: 40vh;
 	width: 40vw;
 	object-fit: cover;
 	float: right;
 }
 
-article > .gauche{
+.histoire article > .gauche{
 	height: 40vh;
 	width: 40vw;
 	object-fit: cover;
