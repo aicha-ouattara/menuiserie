@@ -234,3 +234,70 @@ footer .reseaux ul{
 	background-color: #482828;
 	opacity: 0.9;
 }
+
+
+
+
+/* Page Presentation */
+
+.essence-container
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 30px;
+}
+.un-container 
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 30px;
+	justify-content: center;
+	font-family: 'Poiret One', cursive;
+    padding-left: 10px;
+}
+
+.un-container img
+{
+	max-width: 50%;
+}
+
+/* Overlay presentation essences */
+
+* {box-sizing: border-box;}
+
+.containeravatar {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 50%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Depuis1945";
+}
+
+.containeravatar:hover .overlay {
+  opacity: 1;
+}
+
+
+/* Page Accueil */
