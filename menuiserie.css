@@ -1,0 +1,236 @@
+/* *{
+	border: 1px solid black;
+} */
+
+@font-face {
+	font-family: "Marilou";
+	src: url('ressources/typo/crimson_foam/Crimson Foam Font.otf');
+}
+
+@font-face {
+	font-family: "Depuis1945";
+	src: url('ressources/typo/caviar_dreams/CaviarDreams_Italic.ttf');
+}
+
+html, body{
+	margin: 0;
+	width: 100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url(selection/entreprise_back1_1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+
+}
+
+/* ########## Nav and Header ########### */
+
+nav{
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 30vw;
+	border: 0;
+	color: black;
+	position: sticky;
+	top: 2vh;
+	z-index: 2;
+}
+
+nav li{
+	list-style: none;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	transition: all .3s;
+	display: block;
+	width: 30vw;
+}
+
+nav li:hover{
+	text-decoration: underline;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu{
+	height: 20px;
+	width: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu .tiret{
+	height: 3px;
+	width: 20px;
+	background-color: white;
+}
+
+.hide{
+	display: none;
+	transition-property: display;
+	transition-duration: 5s;
+}
+
+nav:hover .hide{
+	display: inline;
+}
+
+.header_space{
+	height: 45vh;
+}
+
+.monbeaumeuble{
+	text-decoration: none;
+	display: block;
+	color: white;
+	background-color: #482828;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	text-indent: 0;
+	line-height: 10vh;
+	opacity: 0.9;
+	z-index: 1;
+	font-family: "Marilou";
+	font-weight: lighter;
+	font-size: 100px;;
+}
+
+
+header{
+	height: 10vh;
+	width: 100%;
+	position: sticky;
+	text-align: center;
+	top: 0;
+}
+
+/* ########## MAIN ########### */
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: white;
+	color: #482828;
+}
+
+hr{
+	width: 80%;
+	border: 1px solid black;
+}
+
+.titre_section{
+	text-align: center;
+	font-family: "Depuis1945";
+	font-size: 4em;
+	text-decoration: underline;
+}
+
+.histoire{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+article{
+	align-self: center;
+	width: 80%;
+}
+
+.titre_article{
+	text-align: center;
+	font-family: "Depuis1945";
+	font-size: 3em;
+}
+
+article>p{
+	font-size: 1.2em;
+	font-family: 'Poiret One', cursive;
+}
+
+article > img{
+	margin: 15px;
+}
+
+article > .droite{
+	height: 40vh;
+	width: 40vw;
+	object-fit: cover;
+	float: right;
+}
+
+article > .gauche{
+	height: 40vh;
+	width: 40vw;
+	object-fit: cover;
+	float: left;
+}
+
+/* ########## Footer ########### */
+
+
+footer{
+	display: block;
+	/* height: 50vh; */
+	background-color: white;
+	margin: 0px;
+	opacity: 0.9;
+}
+
+footer section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: #482828;
+}
+
+.plan_site{
+	color: #482828;
+}
+
+.plan_site a{
+	color: #482828;
+}
+
+.plan_site a:hover{
+	text-decoration: none;
+}
+
+.reseaux{
+	text-align: center;
+}
+
+footer .reseaux ul{
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.logo_reseau{
+	height: 10vh;
+	margin: 10px;
+}
+
+.mentions{
+	margin: 0px;
+	padding: 0px;
+	height: 5vh;
+	line-height: 5vh;
+	background-color: #482828;
+	opacity: 0.9;
+}

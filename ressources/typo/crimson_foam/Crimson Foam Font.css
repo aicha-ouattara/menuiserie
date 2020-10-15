@@ -1,0 +1,11 @@
+/* Webfont: CrimsonFoam-Regular */@font-face {
+    font-family: 'CrimsonFoam';
+    src: url('Crimson Foam Font.eot'); /* IE9 Compat Modes */
+    src: url('Crimson Foam Font.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Crimson Foam Font.woff') format('woff'), /* Modern Browsers */
+         url('Crimson Foam Font.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
