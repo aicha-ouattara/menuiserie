@@ -265,7 +265,7 @@ footer .reseaux ul{
 
 /* Overlay presentation essences */
 
-* {box-sizing: border-box;}
+/* * {box-sizing: border-box;} */
 
 .containeravatar {
   position: relative;
@@ -350,7 +350,7 @@ footer .reseaux ul{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 14%;
+	width: 9%;
 }
 
 .devis:hover
