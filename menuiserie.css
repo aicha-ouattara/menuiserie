@@ -179,6 +179,59 @@ article>p{
 	float: left;
 }
 
+/* ########## Réalisations ########### */
+
+.main_realisations{
+	background-color: white;
+	/* height: 100vh; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.realisations{
+	width: 80%;
+	display: flex;
+	flex-flow: nowrap row;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.realisations .colonne{
+	display: flex;
+	flex-flow: nowrap column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.realisations .pola{
+	border: 1px solid #482828;
+	margin: 20px;
+	height: auto;
+	width: 90%;
+	/* box-shadow: 0px 0px 10px black; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.pola img{
+	border: 1px solid #482828;
+	height: auto;
+	width: 90%;
+	margin-top: 10px;
+	object-fit: cover;
+}
+
+.realisations details{
+	text-align: center;
+	height: 10vh;
+	width: 100%;
+	color: #482828;
+}
+
+
 /* ########## Footer ########### */
 
 
