@@ -284,7 +284,7 @@ footer .reseaux ul{
   position: absolute; 
   bottom: 0; 
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1; 
   width: 50%;
   transition: .5s ease;
@@ -301,3 +301,65 @@ footer .reseaux ul{
 
 
 /* Page Accueil */
+
+.categorie-container
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.mobilier1-container img
+{
+	max-width: 100%;
+	padding: 10px;
+}
+
+
+.mobilier1-container
+{
+   display: flex;
+   flex-direction: column;
+   background-color: #482828;
+   color: white;
+	font-family: "Depuis1945";
+}
+
+
+.mobilier1-container a:hover
+{
+	color: black;
+}
+.mobilier1-container a
+{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	box-shadow: 4px 10px 20px black;
+}
+
+
+.devis
+{
+	text-decoration: none;
+	background-color: #482828;
+	color: white;
+	font-family: "Depuis1945";
+	padding: 10px 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 14%;
+}
+
+.devis:hover
+{
+	background-color: black;
+}
+
+.newsletter 
+{
+	text-align: center;
+}
+
