@@ -61,6 +61,8 @@ nav li:hover{
 nav a{
 	text-decoration: none;
 	color: white;
+	/* font-family: "Depuis1945";
+	font-size: 14px; */
 }
 
 .menu{
@@ -365,6 +367,8 @@ footer{
 	background-color: white;
 	margin: 0px;
 	opacity: 0.9;
+	/* font-family: "Depuis1945"; */
+
 }
 
 footer section{
@@ -410,4 +414,138 @@ footer .reseaux ul{
 	line-height: 5vh;
 	background-color: #482828;
 	opacity: 0.9;
+	/* font-family: "Depuis1945"; */
+
 }
+
+
+
+
+/* Page Presentation */
+
+.essence-container
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 30px;
+}
+
+
+.un-container 
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 30px;
+	justify-content: center;
+	font-family: 'Poiret One', cursive;
+    padding-left: 10px;
+}
+
+.un-container img
+{
+	max-width: 50%;
+}
+
+
+/* Overlay presentation essences */
+
+* {box-sizing: border-box;}
+
+.containeravatar {
+  /* position: relative; */
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.overlay {
+  /* position: absolute;  */
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 50%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Depuis1945";
+}
+
+.containeravatar:hover .overlay {
+  opacity: 1;
+}
+
+
+/* Page Accueil */
+
+.categorie-container
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.mobilier1-container img
+{
+	max-width: 100%;
+	padding: 10px;
+}
+
+
+.mobilier1-container
+{
+   display: flex;
+   flex-direction: column;
+   background-color: #482828;
+   color: white;
+   font-family: "Depuis1945";
+}
+
+
+.mobilier1-container a:hover
+{
+	color: black;
+}
+.mobilier1-container a
+{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	box-shadow: 4px 10px 20px black;
+}
+
+
+.devis
+{
+	text-decoration: none;
+	background-color: #482828;
+	color: white;
+	font-family: "Depuis1945";
+	padding: 10px 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+
+.devis:hover
+{
+	background-color: black;
+}
+
+.newsletter 
+{
+	text-align: center;
+}
+
