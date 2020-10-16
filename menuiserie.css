@@ -286,7 +286,7 @@ article>p{
 }
 
 .coord_descript .description{
-	width: 40vw;
+	width: 50vw;
 }
 
 .form_devis .piece-jointe{
@@ -309,7 +309,21 @@ textarea {
 	resize: none;
 }
 
+.button_contact{
+	background-color: #482828;
+	color: white;
+	width: 15vw;
+	border: none;
+	margin: 10px;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
 .coordonnees{
+
 	display: flex;
 	flex-direction: row;
 }
@@ -325,9 +339,15 @@ textarea {
 	align-items: center;
 }
 
+.coordonnees iframe{
+	width: 60vw;
+}
+
 .phone_number{
 	text-decoration: none;
 	color: white;
+	padding:10px;
+	border: 1px solid white;
 }
 
 .logo_contact{
