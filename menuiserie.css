@@ -87,8 +87,12 @@ nav:hover .hide{
 	display: inline;
 }
 
-.header_space{
+.header_space_acceuil{
 	height: 45vh;
+}
+
+.header_space{
+	height: 15vh;
 }
 
 .monbeaumeuble{
@@ -116,7 +120,13 @@ header{
 	top: 0;
 }
 
-/* ########## MAIN ########### */
+/* ########## Accueil ########### */
+
+.accueil{
+	background-color: white;
+}
+
+/* ########## Entreprise ########### */
 
 .entreprise{
 	display: flex;
@@ -233,6 +243,96 @@ article>p{
 	height: 10vh;
 	width: 90%;
 	color: #482828;
+}
+
+/* ########## Contact ########### */
+
+.main_contact{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.devis{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+}
+
+.devis >p{
+	text-align: center;
+	width: 40%;
+}
+
+.form_devis{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_devis input{
+	width: 100%;
+}
+
+.coord_descript{
+	display: flex;
+}
+.coord_descript .coord {
+	width: 20vw;
+}
+
+.coord_descript .description{
+	width: 40vw;
+}
+
+.form_devis .piece-jointe{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.form_devis label{
+	width: 50%;
+}
+
+fieldset{
+	border: 2px groove #482828;;
+}
+
+textarea {
+	width: 100%;
+	resize: none;
+}
+
+.coordonnees{
+	display: flex;
+	flex-direction: row;
+}
+
+.adress_map{
+	width: 20vw;
+	background-color: #482828;
+	opacity: 0.9;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.phone_number{
+	text-decoration: none;
+	color: white;
+}
+
+.logo_contact{
+	height: 10vh;
+	width: auto;
 }
 
 
