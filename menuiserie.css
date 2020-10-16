@@ -61,8 +61,8 @@ nav li:hover{
 nav a{
 	text-decoration: none;
 	color: white;
-	/* font-family: "Depuis1945";
-	font-size: 14px; */
+	font-family: "Depuis1945";
+	font-size: 14px;
 }
 
 .menu{
@@ -126,6 +126,10 @@ header{
 
 .accueil{
 	background-color: white;
+}
+
+.accueil p{
+	text-align: justify;
 }
 
 /* ########## Presentation ########### */
@@ -384,7 +388,7 @@ footer{
 	background-color: white;
 	margin: 0px;
 	opacity: 0.9;
-	/* font-family: "Depuis1945"; */
+	font-family: "Depuis1945";
 
 }
 
@@ -425,6 +429,7 @@ footer .reseaux ul{
 }
 
 .mentions{
+	text-align: center;
 	margin: 0px;
 	padding: 0px;
 	height: 5vh;
@@ -489,7 +494,6 @@ footer .reseaux ul{
 }
 
 .overlay {
-  /* position: absolute;  */
   bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
